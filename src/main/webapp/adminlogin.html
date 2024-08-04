@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Admin Login Form</title>
+    <link rel="stylesheet" href="index.css">   
+</head>
+
+<body>
+    <div class="header">
+        <div class="headerbox headerbox-sub">
+            <a href="index.html" class="logo" style="padding-left:20px;text-decoration: none;">
+                FlyAway&#9992
+           </a>
+        </div>
+    </div>
+
+    <div class="content">
+        <header>Admin Login</header>
+        <form action="admin?action=adminLogin" method="post">
+            <div class="input">   
+                <input type="text" name="uName" required placeholder=" username">
+            </div>
+            <div class="input">
+                <input type="password" name="password" required placeholder=" password">
+
+            </div>
+            <br>
+            <div>
+                <div class="input">
+                    <input type="submit" value="Login">
+                </div>
+                <a href="adminsignup.html">New user? Sign up here!</a>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

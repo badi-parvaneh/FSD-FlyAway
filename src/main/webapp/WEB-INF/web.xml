@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>  
+  <display-name>FlyAway</display-name>
+  <welcome-file-list>
+  	<welcome-file>index2.html</welcome-file>
+  	<welcome-file>default.html</welcome-file>
+  	<jsp-file>default.jsp</jsp-file>
+  </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>adminServlet</servlet-name>
+  	<servlet-class>services.adminServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet>
+  	<servlet-name>passengerServlet</servlet-name>
+  	<servlet-class>services.passengerServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>flightServlet</servlet-name>
+  	<servlet-class>services.flightServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>ticketServlet</servlet-name>
+  	<servlet-class>services.ticketServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>adminServlet</servlet-name>
+  	<url-pattern>/admin/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>passengerServlet</servlet-name>
+  	<url-pattern>/passenger/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>flightServlet</servlet-name>
+  	<url-pattern>/flights/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ticketServlet</servlet-name>
+  	<url-pattern>/ticket/*</url-pattern>
+  </servlet-mapping>
+</web-app>

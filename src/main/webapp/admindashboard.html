@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>admindashboard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="admindashboard.css" rel="stylesheet">
+</head>
+
+<body>
+      <div class="header">
+        <div class="headerbox headerbox-sub">
+            <a href="index.html" class="logo" style="padding-left:20px;text-decoration: none;">
+                FlyAway-Admin
+           </a>
+            <div>
+                <ul class="logout" style="padding-right:15px;">
+                    <li><a href="index.html">Logout</a></li>
+                   
+                </ul>
+            </div>
+        </div>
+    </div>
+   
+    <div>
+
+        <div class="menu">
+            <div class="button-background">
+                <form action="flights?action=displayCities" method="post">
+                    <button class="buttondesign">
+                        <div class="menu-item">
+                            View Source and Destination Airports
+                        </div>
+                        </button>
+                </form>
+            </div>
+
+            
+            <div class="button-background ">
+                <form action="flights?action=displayFlights" method="post">
+                    <button class="buttondesign "> 
+                        <div class="menu-item ">
+                            View Current Flights
+                        </div>
+                        
+                    </button>
+                </form>
+            </div>
+
+
+            <div class="button-background">
+                <form action="flights?action=displayAirlines" method="post">
+                    <button class="buttondesign">
+                        <div class="menu-item ">
+                            View Airlines
+                        </div>
+                    </button>
+                </form>
+            </div>
+            
+            <div class="button-background">
+                <form action="adminupdate.html">
+                    <button class="buttondesign">
+                        <div class="menu-item ">
+                            Change Password
+                        </div>
+                    </button>
+                </form>
+            </div>
+        </div>
+           
+        </div>
+
+</body>
+
+</html>

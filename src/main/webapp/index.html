@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="Stylesheet" href="index.css" />
+    <title>FlyAway</title>
+</head>
+
+<body>
+    <div class="header" id="header">
+        <div class="headerbox headerbox-sub">
+            <a href="index.html" class="logo" style="padding-left:20px;">
+                FlyAway&#9992
+            </a>
+            <div>
+                <ul class="login"style="padding-right:25px;">
+                    <li><a href="adminlogin.html">Admin Login</a></li>
+                   
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="content">
+            <header>Search for Flights</header>
+            <form action="flights?action=searchFlights" method="post">
+                <div class="input">
+                    <input type="text" name = "source_airport" required placeholder=" Departure Airport" style='padding-left:5px'>
+                </div>
+                <div class="input">
+                    <input type="text" name = "destination" required placeholder=" Arrival Airport" style='padding-left:5px'>
+                </div>
+                <div class="input">
+                    <input type="date" name = "departure_time" style='padding-left:5px'>
+                </div>
+                <div class="input">
+                    <input type="text" name = "num_passengers" required placeholder=" Number of Passengers" style='padding-left:5px'>
+                </div>
+                <div >
+                    <div class="input">
+                        <input type="submit" value="Find Flights">
+                    </div>
+                </div>
+
+            </form>
+     </div>
+ 
+   
+
+      
+</body>
+
+</html>

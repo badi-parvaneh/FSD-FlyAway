@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 90px;
+    width: 100%;
+    background-color: #d8cbc9;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.headerbox {
+    width: 100%;
+    background-color: #e6e0df;
+    display: flex;
+}
+
+.headerbox-sub {
+    justify-content: space-between;
+}
+
+.logo {
+	width: 15%;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    color: #716867;
+    line-height: 80px;
+    text-decoration: none;
+}
+
+.login {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.login li {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.login li a {
+    color: #716867;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.login li a:hover {
+    color: #f3682b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    text-align: center;
+    padding: 70px 35px;
+    width: 370px;
+    transform: translate(-50%, -50%);
+    background: #d8cbc9;
+}
+
+.content header {
+    color: #716867;
+    font-size: 33px;
+    font-weight: 600;
+    margin: 0 0 35px 0;
+}
+
+.input {
+    position: relative;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    background: white;
+    margin-bottom: 10px;
+}
+
+.input span {
+    color: #222;
+    width: 40px;
+    line-height: 45px;
+}
+
+.input input {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #222;
+    font-size: 18px;
+}
+
+.space {
+    margin-top: 16px;
+}
+
+.show {
+    position: absolute;
+    right: 13px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #222;
+    display: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pass {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.pass a {
+    color: white;
+    text-decoration: none;
+}
+
+.pass:hover a {
+    text-decoration: underline;
+}
+
+.input input[type="submit"] {
+    background: #716867;
+    border: 1px solid rgb(199, 214, 217);
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input input[type="submit"]:hover {  
+    color:#f3682b;
+}
+
+.login {
+    color: white;
+    margin: 20px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.links {
+    display: flex;
+    cursor: pointer;
+    color: white;
+    margin: 0 0 20px 0;
+}
+
+
+.links i {
+    font-size: 17px;
+}
+
+i span {
+    margin-left: 8px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.signup {
+    font-size: 15px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.signup a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
