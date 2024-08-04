@@ -42,7 +42,7 @@
                     <td><c:out value="${flight.departure_time}" /></td>
                     <td><c:out value="${flight.arrival_time}" /></td>
                     <td><c:out value="${flight.seats_available}" /></td>
-                    <td><c:out value="${flight.price}" /></td>
+                    <td>$<c:out value="${flight.price}" /></td>
                 </tr>
             </c:forEach>
         </table>

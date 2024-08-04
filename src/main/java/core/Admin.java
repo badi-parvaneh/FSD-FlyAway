@@ -31,12 +31,6 @@ public class Admin implements Serializable{
 
 	}
 
-//	public Admin(int user_id, String uName, String password) {
-//		super();
-//		this.user_id = user_id;
-//		this.uName = uName;
-//		this.password = password;
-//	}
 	public Admin(String uName, String password) {
 		super();
 		this.uName = uName;
